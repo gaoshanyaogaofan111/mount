@@ -17,7 +17,7 @@ for (i in 1:9) {
         x = x2, # x值
         y = y_values, # 对应的y值（伽马分布密度）
         # 使用sprintf格式化字符串，生成参数标签
-        # 注意：这里仍然使用betas[i]作为标签中的b，因为原始代码中就是这样做的
+        # 注意：这里仍然使用betas[i]作为标签中的b
         pm = sprintf("a=%.1f,b=%.1f", alpha[i], betas[i])
     )
 
